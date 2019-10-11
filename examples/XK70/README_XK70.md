@@ -64,9 +64,8 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 ### OKdo Setup
 
 1. Create an account on [All Things Talk](https://maker.allthingstalk.com/).
-2. Add a new ground.
 
-<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/okdo1.png" alt="alt text" width="70%" height="auto" align="center">
+2. You may use your Playground that ATT provides you with.
 
 3. In the Devices menu, add a new device and select Xinabox XK70 LoRa IoT Kit.
 
