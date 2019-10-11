@@ -23,7 +23,7 @@ To get started, the XK70 kit comes with a GPS module (SN01), a gas and weather s
 * Tracking and Navigation
 * Remote Control
 
-## Microcontoller (MCU) and Power Supply (PS)
+## Microcontroller (MCU) and Power Supply (PS)
 
 ### MCU
 
@@ -35,7 +35,7 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 
 ## XK70 Example
 
-## The Things Network Setup
+### The Things Network Setup
 
 1. Create an account on [The Things Network](https://thethingsnetwork.org)
 2. Navigate to [The Things Console](https://console.thethingsnetwork.org)
@@ -61,3 +61,33 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 
 <img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn6.png" alt="alt text" width="70%" height="auto" align="center">
 
+### OKdo Setup
+
+1. Create an account on [All Things Talk](https://maker.allthingstalk.com/).
+2. Add a new ground.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/okdo1.png" alt="alt text" width="70%" height="auto" align="center">
+
+3. In the Devices menu, add a new device and select Xinabox XK70 LoRa IoT Kit.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att2.png" alt="alt text" width="70%" height="auto" align="center">
+
+4. Add The Things Network integration.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att3.png" alt="alt text" width="70%" height="auto" align="center">
+
+5. Provide a name for your device and paste your keys provided by The Things Network into the respective fields. ABP keys will only be generated when you connect to The Things Network. This can be reenetred afterwards by going to *settings > connectivity*.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att4.png" alt="alt text" width="70%" height="auto" align="center">
+
+6. All assets will be generated automatically.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att7.png" alt="alt text" width="70%" height="auto" align="center">
+
+7. In the settings enable use ABCL to convert custom binary data. We will be converting all binary data manually paste the attabcl.json contents in the field.
+
+8.  Create a new pinboard to visualize your data and to easily control OC03. You can create a pinboard automatially by selecting the assets.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att11.png" alt="alt text" width="70%" height="auto" align="center">
+
+That completes the OKdo setup.
