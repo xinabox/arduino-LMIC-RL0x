@@ -41,53 +41,53 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 2. Navigate to [The Things Console](https://console.thethingsnetwork.org)
 3. Select application and add a new application. Give the application a name and an optional description.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn1.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn1.png" alt="alt text" width="70%" height="auto" align="center">
 
 4. Below the devices heading register a new device. Provide an ID for the device and generate the Device EUI.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn2.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn2.png" alt="alt text" width="70%" height="auto" align="center">
 
 5. The keys will be generated similar to the image below. You will require these keys for OKdo.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn3.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn3.png" alt="alt text" width="70%" height="auto" align="center">
 
 6. Navigate back to devices and open up the integrations tab. Add the AllThingsTalk Maker intergation.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn4.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn4.png" alt="alt text" width="70%" height="auto" align="center">
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn5.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn5.png" alt="alt text" width="70%" height="auto" align="center">
 
 7. Provide a unique ID and select the default access key and complete the integration. You have now created the integration between OKdo and The Things Network.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn6.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/ttn6.png" alt="alt text" width="70%" height="auto" align="center">
 
 ### OKdo Setup
 
 1. Create an account on [All Things Talk](https://maker.allthingstalk.com/).
 2. Add a new ground.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/okdo1.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/okdo1.png" alt="alt text" width="70%" height="auto" align="center">
 
 3. In the Devices menu, add a new device and select Xinabox XK70 LoRa IoT Kit.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att2.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att2.png" alt="alt text" width="70%" height="auto" align="center">
 
 4. Add The Things Network integration.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att3.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att3.png" alt="alt text" width="70%" height="auto" align="center">
 
 5. Provide a name for your device and paste your keys provided by The Things Network into the respective fields. ABP keys will only be generated when you connect to The Things Network. This can be reenetred afterwards by going to *settings > connectivity*.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att4.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att4.png" alt="alt text" width="70%" height="auto" align="center">
 
 6. All assets will be generated automatically.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att7.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att7.png" alt="alt text" width="70%" height="auto" align="center">
 
 7. In the settings enable use ABCL to convert custom binary data. We will be converting all binary data manually paste the attabcl.json contents in the field.
 
 8.  Create a new pinboard to visualize your data and to easily control OC03. You can create a pinboard automatially by selecting the assets.
 
-<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/att11.png" alt="alt text" width="70%" height="auto" align="center">
+<img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att11.png" alt="alt text" width="70%" height="auto" align="center">
 
 That completes the OKdo setup.
