@@ -89,4 +89,4 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 
 <img src="https://github.com/xinabox/arduino-LMIC-RL0x/blob/master/extras/att11.png" alt="alt text" width="70%" height="auto" align="center">
 
-That completes the OKdo setup.
+That completes the ATT setup.
