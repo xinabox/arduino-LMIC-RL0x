@@ -35,5 +35,29 @@ PB04 Dual AA Intelligent Battery Power Pack with onboard voltage and current mea
 
 ## XK70 Example
 
+## The Things Network Setup
 
+1. Create an account on [The Things Network](https://thethingsnetwork.org)
+2. Navigate to [The Things Console](https://console.thethingsnetwork.org)
+3. Select application and add a new application. Give the application a name and an optional description.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn1.png" alt="alt text" width="70%" height="auto" align="center">
+
+4. Below the devices heading register a new device. Provide an ID for the device and generate the Device EUI.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn2.png" alt="alt text" width="70%" height="auto" align="center">
+
+5. The keys will be generated similar to the image below. You will require these keys for OKdo.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn3.png" alt="alt text" width="70%" height="auto" align="center">
+
+6. Navigate back to devices and open up the integrations tab. Add the AllThingsTalk Maker intergation.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn4.png" alt="alt text" width="70%" height="auto" align="center">
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn5.png" alt="alt text" width="70%" height="auto" align="center">
+
+7. Provide a unique ID and select the default access key and complete the integration. You have now created the integration between OKdo and The Things Network.
+
+<img src="https://github.com/xinabox/arduino-LMIC/blob/master/extras/ttn6.png" alt="alt text" width="70%" height="auto" align="center">
 
