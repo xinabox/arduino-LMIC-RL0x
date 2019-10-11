@@ -54,15 +54,15 @@ void hal_pin_rxtx (u1_t val) {
 
 // set radio RST pin to given value (or keep floating!)
 void hal_pin_rst (u1_t val) {
-    if (lmic_pins.rst == LMIC_UNUSED_PIN)
-        return;
+    // if (lmic_pins.rst == LMIC_UNUSED_PIN)
+    //     return;
 
-    if(val == 0 || val == 1) { // drive pin
-        IX02.pinMode(lmic_pins.rst, OUTPUT);
-        IX02.digitalWrite(lmic_pins.rst, val);
-    } else { // keep pin floating
-        IX02.pinMode(lmic_pins.rst, INPUT);
-    }
+    // if(val == 0 || val == 1) { // drive pin
+    //     IX02.pinMode(lmic_pins.rst, OUTPUT);
+    //     IX02.digitalWrite(lmic_pins.rst, val);
+    // } else { // keep pin floating
+    //     IX02.pinMode(lmic_pins.rst, INPUT);
+    // }
 }
 
 static bool dio_states[NUM_DIO] = {0};
